@@ -1,0 +1,15 @@
+
+<div class="form">
+    <form #contactForm="ngForm" (ngsubmit)="getData(contactForm.value)">
+        <div id="id1"><input type="text" placeholder="Enter first Name" name="firstname" ngModel></div>
+        <div id="id2"><input type="text" placeholder="Enter last name" name="lastname" ngModel></div>
+        <div id="id3"><input type="email" placeholder="Email" name="email" ngModel></div>
+        <br><br>
+        <div id="id4"><input type="text" id="phoneNumber" placeholder="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" maxlength="10" ngModel></div>
+        <div id="id5"><input type="text" placeholder="Enter Address" name="Address" ngModel></div>
+        <div id="id6"><input type="password" placeholder="Enter password" name="password" ngModel></div>
+    </form><br>
+    <div style="margin-left: 37%;"><button (click)=getData(contactForm.value)>Submit</button></div>
+</div>
+
+

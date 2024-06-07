@@ -1,0 +1,10 @@
+.form{
+    margin-top: 2%;
+   margin-left: 2%;  
+}
+
+#id1,#id2,#id3,#id4,#id5,#id6{
+    display: inline;
+    margin-left: 5%;
+}
+
