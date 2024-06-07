@@ -1,0 +1,28 @@
+#c2, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+  }
+
+  #Achievements,#Skills {
+    border: solid,black,2px ;
+    background-color: aliceblue;
+  }
+
+  ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 80px; /* Add space between list items */
+}
+
+
+
+
+
+/* Remove margin from the last item */
+li:last-child {
+    margin-right: 0;
+}
